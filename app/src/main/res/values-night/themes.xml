@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 深色启动主题：与亮色版结构一致，仅换深色父主题，避免深色模式启动白闪 -->
+<resources>
+    <style name="Theme.LiquidGlassBarDemo" parent="android:Theme.Material.NoActionBar" />
+</resources>

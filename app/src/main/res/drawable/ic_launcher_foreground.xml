@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自适应图标前景（108dp 视口，图形保持在中心 66dp 安全区内）：
+     半透明长条 = 玻璃底栏本体，白圆 = 按压放大镜 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillAlpha="0.35"
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,64 H76 a8,8 0 0 1 0,16 H32 a8,8 0 0 1 0,-16 Z" />
+    <path
+        android:fillAlpha="0.95"
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,58 a14,14 0 1 1 0,28 a14,14 0 1 1 0,-28 Z" />
+</vector>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 亮色启动主题：背景与 Compose 主题一致，避免冷启动白闪 -->
+<resources>
+    <style name="Theme.LiquidGlassBarDemo" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

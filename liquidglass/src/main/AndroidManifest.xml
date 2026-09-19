@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- miuix-blur 声明 minSdk 33（真实模糊依赖 API 33+ 的 RuntimeShader），
+         本库保留 minSdk 24：API 33+ 且 AGSL 可用时走真实玻璃，
+         其余情况由调用方通过 isGlassBlurSupported() 判定并回退到自己的普通底栏。 -->
+    <uses-sdk tools:overrideLibrary="top.yukonga.miuix.kmp.blur" />
+
+</manifest>
